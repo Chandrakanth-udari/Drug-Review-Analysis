@@ -73,6 +73,6 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ## 📬 Contact
 
-Created by [Your Name]  
-Feel free to connect: [your.email@example.com](mailto:udarichandrakanth@gmail.com) | [LinkedIn](https://www.linkedin.com/in/chandrakanth-yadav-udari-a1376a32b/)
+Created by [Chandrakanth Yadav Udari]
+Feel free to connect: [your.email@example.com](udarichandrakanth@gmail.com) | [LinkedIn](https://www.linkedin.com/in/chandrakanth-yadav-udari-a1376a32b/)
 
