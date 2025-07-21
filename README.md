@@ -1,68 +1,90 @@
 # Drug Review Sentiment Analysis
 
-This project analyzes patient reviews for various drugs using NLP (Natural Language Processing) and machine learning. It predicts user satisfaction ratings based on review text using a Naïve Bayes classifier. Visualizations and exploratory analysis highlight how gender, age, and drug types affect satisfaction.
-
-## 📊 Project Overview
-
-- **Dataset Source:** [WebMD Drug Reviews - Kaggle](https://www.kaggle.com/datasets/rohanharode07/webmd-drug-reviews-dataset)
-- **Total Records:** 360,000+ unique drug reviews
-- **Goal:** Predict satisfaction rating (negative, neutral, positive) based on patient reviews
-
-## 🧠 Techniques Used
-
-- Text Cleaning & Preprocessing
-- Stopword Removal, Stemming
-- TF-IDF Vectorization
-- Naïve Bayes Classification
-- Word Cloud & Data Visualization
-- Confusion Matrix & Accuracy Evaluation
-
-## 🗂️ Project Structure
-
-| File/Folder               | Description                                  |
-|---------------------------|----------------------------------------------|
-| `Drug_Review_Analysis.ipynb` | Main notebook with code, EDA, NLP & ML      |
-| `Drug_Review_Analysis_Presentation.pptx` | Slide deck summarizing project        |
-| `images/`                 | Word clouds, heatmaps, visual output images  |
-| `data/`                  | Sample data or CSV file (avoid large files)  |
-| `README.md`               | Project overview and instructions            |
-
-## 🛠️ Libraries Used
-
-- Python 3.x
-- Pandas, NumPy
-- NLTK, Scikit-learn
-- Matplotlib, Seaborn
-- WordCloud
-
-## 📌 Model Summary
-
-The Naïve Bayes classifier achieved strong performance by vectorizing cleaned review text with TF-IDF. Ratings were categorized as:
-- 1–2 → Negative (0)
-- 3   → Neutral  (1)
-- 4–5 → Positive (2)
-
-The model was evaluated using a confusion matrix and standard metrics (accuracy, precision, recall).
-
-## 📷 Sample Visualizations
-
-![Word Cloud](images/wordcloud.png)
-![Heatmap](images/heatmap.png)
-
-## 🔗 Dataset
-
-Due to size, the full dataset is not included. You can download it here:  
-📎 [WebMD Drug Reviews – Kaggle](https://www.kaggle.com/datasets/rohanharode07/webmd-drug-reviews-dataset)
-
-## 📽️ Presentation
-
-A summary PowerPoint of the project is included in the repository for quick review of objectives, techniques, visuals, and conclusions.
+## 📌 Objective
+To analyze drug reviews from WebMD and predict sentiment (positive or negative) based on textual reviews using Natural Language Processing (NLP) techniques and a Naïve Bayes classifier.
 
 ---
 
-## 💡 Inspiration
+## 📊 Dataset
 
-With rising drug costs and heavy usage in the U.S., sentiment analysis of patient reviews helps identify patterns in drug effectiveness and side effects. This project helps visualize and predict patient satisfaction using real-world medical feedback.
+- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+(Drugs.com))  
+- **Content**: 360,000+ drug reviews with the following columns:
+  - `drugName`
+  - `condition`
+  - `review`
+  - `rating`
+  - `date`
+  - `usefulCount`
+
+---
+
+## 🔧 Tools & Libraries Used
+
+- Python
+- Pandas, NumPy
+- NLTK, re (Regular Expressions)
+- Scikit-learn
+- Seaborn, Matplotlib, WordCloud
+
+---
+
+## 🧹 Data Preprocessing
+
+- Removed null values and duplicate records
+- Cleaned review text: lowercased, removed punctuation, stop words, and tokenized
+- Used **TF-IDF Vectorization** for feature extraction
+
+---
+
+## 🧠 Model Building
+
+- Applied **Multinomial Naïve Bayes Classifier**
+- Converted ratings into sentiment:
+  - **Positive**: Rating ≥ 7
+  - **Negative**: Rating < 7
+- Trained on TF-IDF vectors
+
+---
+
+## ✅ Model Evaluation
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+---
+
+## 📈 Visualizations
+
+- WordCloud for Positive and Negative reviews
+- Count plots of ratings and useful counts
+- Heatmaps of correlation
+
+---
+
+## 📎 Output & Results
+
+- Achieved ~85% accuracy in predicting drug review sentiment
+- Positive reviews commonly included words like “relief”, “effective”
+- Negative reviews often included “side effects”, “pain”, etc.
+
+---
+
+## 📁 Files Included
+
+- `Drug_Review_Analysis.ipynb`: Complete Jupyter notebook
+- `drug_reviews.csv`: Cleaned dataset (optional)
+- `Drug_Review_Presentation.pptx`: Visual summary of findings and methodology
+
+---
+
+## 🔗 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/drug-review-analysis.git
+   cd drug-review-analysis
+
 
 ---
 
