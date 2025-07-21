@@ -7,8 +7,8 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ## 📊 Dataset
 
-- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+(Drugs.com))  
-- **Content**: 360,000+ drug reviews with the following columns:
+- **Source**: [Kaggle - WebMD Drug Reviews Dataset](https://www.kaggle.com/datasets/rohanharode07/webmd-drug-reviews-dataset)
+- **Content**: Drug reviews with the following columns:
   - `drugName`
   - `condition`
   - `review`
@@ -62,34 +62,17 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 📎 Output & Results
-
-- Achieved ~85% accuracy in predicting drug review sentiment
-- Positive reviews commonly included words like “relief”, “effective”
-- Negative reviews often included “side effects”, “pain”, etc.
-
----
-
-## 📁 Files Included
+## 📎 Files Included
 
 - `Drug_Review_Analysis.ipynb`: Complete Jupyter notebook
-- `drug_reviews.csv`: Cleaned dataset (optional)
 - `Drug_Review_Presentation.pptx`: Visual summary of findings and methodology
 
 ---
 
-## 🔗 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/drug-review-analysis.git
-   cd drug-review-analysis
-
-
----
 
 ## 📬 Contact
 
 Created by [Your Name]  
-Feel free to connect: [your.email@example.com](mailto:your.email@example.com) | [LinkedIn](https://linkedin.com/in/yourprofile)
+Feel free to connect: [your.email@example.com](mailto:udarichandrakanth@gmail.com) | [LinkedIn](https://www.linkedin.com/in/chandrakanth-yadav-udari-a1376a32b/)
 
