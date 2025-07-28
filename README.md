@@ -1,11 +1,11 @@
 # Drug Review Sentiment Analysis
 
-## 📌 Objective
+##  Objective
 To analyze drug reviews from WebMD and predict sentiment (positive or negative) based on textual reviews using Natural Language Processing (NLP) techniques and a Naïve Bayes classifier.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: [Kaggle - WebMD Drug Reviews Dataset](https://www.kaggle.com/datasets/rohanharode07/webmd-drug-reviews-dataset)
 - **Content**: Drug reviews with the following columns:
@@ -18,7 +18,7 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 🔧 Tools & Libraries Used
+##  Tools & Libraries Used
 
 - Python
 - Pandas, NumPy
@@ -28,7 +28,7 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 - Removed null values and duplicate records
 - Cleaned review text: lowercased, removed punctuation, stop words, and tokenized
@@ -36,7 +36,7 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 🧠 Model Building
+##  Model Building
 
 - Applied **Multinomial Naïve Bayes Classifier**
 - Converted ratings into sentiment:
@@ -46,7 +46,7 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## ✅ Model Evaluation
+##  Model Evaluation
 
 - Accuracy Score
 - Confusion Matrix
@@ -54,7 +54,7 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - WordCloud for Positive and Negative reviews
 - Count plots of ratings and useful counts
@@ -62,14 +62,13 @@ To analyze drug reviews from WebMD and predict sentiment (positive or negative) 
 
 ---
 
-## 📎 Files Included
+##  Files Included
 
 - `Drug_Review_Analysis.ipynb`: Complete Jupyter notebook
 - `Drug_Review_Presentation.pptx`: Visual summary of findings and methodology
 
 ---
 
-## 📬 Contact
 
 Created by **Chandrakanth Yadav Udari**  
 📧 Email: [udarichandrakanth@gmail.com](mailto:udarichandrakanth@gmail.com)  
